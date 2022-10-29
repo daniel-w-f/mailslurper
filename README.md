@@ -26,3 +26,21 @@ Trying to write a small Python programm. Following this guide: [Sending Emails W
 ```python
 python -m smtpd -c DebuggingServer -n localhost:1025
 ```
+
+Example output
+
+```python
+---------- MESSAGE FOLLOWS ----------
+Date: Sat, 29 Oct 2022 16:52:15 +0200 (CEST)
+From: a@b.c
+To: d@e.f
+Message-ID: <352359770.0.1667055140263@locahost>
+Subject: Atreff
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 7bit
+X-Peer: 127.0.0.1
+
+Lorem Ipsum
+------------ END MESSAGE ------------
+```
