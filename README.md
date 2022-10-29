@@ -44,3 +44,8 @@ X-Peer: 127.0.0.1
 Lorem Ipsum
 ------------ END MESSAGE ------------
 ```
+
+### testing
+
+Starting `src\main\java\daniel\w\f\App.java`
+And receiving emails with `DebuggingServer`

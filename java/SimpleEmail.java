@@ -1,6 +1,6 @@
 import java.util.Properties;
 
-import javax.mail.Session;
+// import javax.mail.Session;
 
 public class SimpleEmail {
 	
@@ -15,9 +15,9 @@ public class SimpleEmail {
 
 	    props.put("mail.smtp.host", smtpHostServer);
 
-	    Session session = Session.getInstance(props, null);
+	    // Session session = Session.getInstance(props, null);
 	    
-	    EmailUtil.sendEmail(session, emailID,"SimpleEmail Testing Subject", "SimpleEmail Testing Body");
+	    // EmailUtil.sendEmail(session, emailID,"SimpleEmail Testing Subject", "SimpleEmail Testing Body");
 	}
 
 }
