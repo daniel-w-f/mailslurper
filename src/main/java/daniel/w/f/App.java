@@ -16,7 +16,7 @@ public class App
         System.out.println( "Hello World!" );
 
         try {
-            // String smtpHost = "DESKTOP-KO39D7T.localdomain";
+            // in etc/host mapped 'blaserver' to 127.0.0.1
             String smtpHost = "blaserver";
             versendeEMail("Atreff", "Lorem Ipsum", "a@b.c", "d@e.f", smtpHost);
         } catch (MessagingException e) {
