@@ -60,3 +60,26 @@ MailSlurper locally running as Docker Container, listening on port 2500.
 <https://www.mailslurper.com/>
 
 Download from <https://github.com/mailslurper/mailslurper/releases> -> mailslurper-1.14.1-linux.zip
+
+```shell
+wget https://github.com/mailslurper/mailslurper/releases/download/1.14.1/mailslurper-1.14.1-linux.zip
+```
+
+Maybe adjust to be more generic...
+
+```shell
+GH_USER=REPLACE_WITH_USER \
+GH_REPO=REPLACE_WITH_REPO \
+GH_BRANCH=REPLACE_WITH_BRANCH \
+wget https://github.com/${GH_USER}/${GH_REPO}/archive/refs/tags/${GH_BRANCH}.zip \
+-O "${GH_REPO}-${GH_BRANCH}.zip" && \ 
+unzip ./"${GH_REPO}-${GH_BRANCH}.zip" && \
+rm ./"${GH_REPO}-${GH_BRANCH}.zip"
+```
+
+<https://hub.docker.com/_/alpine/tags>
+
+```docker
+docker pull alpine:3.16.2
+docker build . -t test-mailslurpe
+```
