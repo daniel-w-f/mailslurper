@@ -50,7 +50,13 @@ Lorem Ipsum
 Starting `src\main\java\daniel\w\f\App.java`
 And receiving emails with `DebuggingServer`
 
-### MailSlurper
+### Emails recieved by MailSlurper
 
 MailSlurper locally running as Docker Container, listening on port 2500.
 ![MailSlurper example email](MailSlurper_email.png)
+
+## Mailslurper Docker Image
+
+<https://www.mailslurper.com/>
+
+Download from <https://github.com/mailslurper/mailslurper/releases> -> mailslurper-1.14.1-linux.zip
